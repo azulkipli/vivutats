@@ -13,3 +13,8 @@ import { RouterLink, RouterView } from "vue-router"
 
   <RouterView />
 </template>
+<style>
+.router-link-active.router-link-exact-active {
+  color: #cecece;
+}
+</style>

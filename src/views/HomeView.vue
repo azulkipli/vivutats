@@ -9,14 +9,11 @@
         <h1
           class="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl"
         >
-          Understand User Flow.
-
-          <span class="sm:block"> Increase Conversion. </span>
+          Vite Vue Tailwind TypeScript.
         </h1>
 
         <p class="mx-auto mt-4 max-w-xl sm:text-xl sm:leading-relaxed">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt illo tenetur fuga
-          ducimus numquam ea!
+          Vite Vue Tailwind TypeScript for better developer experience
         </p>
 
         <div class="mt-8 flex flex-wrap justify-center gap-4">
