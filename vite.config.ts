@@ -5,6 +5,8 @@ import vue from "@vitejs/plugin-vue"
 import browserslistToEsbuild from "browserslist-to-esbuild"
 import timeReporter from "vite-plugin-time-reporter"
 import Inspector from "unplugin-vue-inspector/vite" // OR vite-plugin-vue-inspector
+import EnvironmentPlugin from "vite-plugin-environment"
+
 // import { unheadComposablesImports } from "unhead"
 // import AutoImport from "unplugin-auto-import/vite"
 
@@ -25,6 +27,14 @@ export default defineConfig(({ mode }) => ({
   },
   plugins: [
     vue(),
+    EnvironmentPlugin({
+      // Have in mind that variables coming from process.env are always strings.
+      DEBUG: "on",
+      // Required: will fail if the API_KEY environment variable is not provided.
+      API_URL: "/api",
+      // Optional: will not fail if the APP_VERSION environment variable is missing.
+      APP_VERSION: "v0.0.1",
+    }),
     // AutoImport({
     //   imports: [unheadComposablesImports],
     // }),

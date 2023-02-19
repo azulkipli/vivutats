@@ -45,6 +45,7 @@
     "unplugin-auto-import": "^0.14.3",
     "unplugin-vue-inspector": "^0.2.2",
     "vite": "^4.0.0",
+    "vite-plugin-environment": "^1.1.3",
     "vite-plugin-time-reporter": "^2.1.0",
     "vite-plugin-vue-inspector": "^3.3.2",
     "vitest": "^0.25.6",
