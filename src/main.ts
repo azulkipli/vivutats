@@ -1,7 +1,7 @@
 /* node_module */
 import { createApp } from "vue"
 import { createPinia } from "pinia"
-import { createHead, useHead } from "unhead"
+import { createHead, useHead } from "@vueuse/head"
 
 /* components */
 import App from "./App.vue"
@@ -19,7 +19,7 @@ useHead({
     {
       name: "description",
       content: "Vite VueJS TailwindCSS TypeScript starter template",
-      keywords: "vite, vue, tailwind, starter, template",
+      // keywords: "vite, vue, tailwind, starter, template",
     },
   ],
 })

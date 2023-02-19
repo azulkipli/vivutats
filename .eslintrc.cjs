@@ -19,6 +19,8 @@ module.exports = {
     ecmaVersion: "latest",
   },
   rules: {
+    "no-use-before-define": "off",
+    "@typescript-eslint/no-use-before-define": ["error"],
     "vue/multi-word-component-names": "off",
     "vue/prop-name-casing": "off",
     camelcase: "off",
