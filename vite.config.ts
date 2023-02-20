@@ -6,6 +6,8 @@ import browserslistToEsbuild from "browserslist-to-esbuild"
 import timeReporter from "vite-plugin-time-reporter"
 import Inspector from "unplugin-vue-inspector/vite" // OR vite-plugin-vue-inspector
 import EnvironmentPlugin from "vite-plugin-environment"
+import Icons from "unplugin-icons/vite"
+// import IconsResolver from "unplugin-icons/resolver"
 
 // import { unheadComposablesImports } from "unhead"
 // import AutoImport from "unplugin-auto-import/vite"
@@ -27,6 +29,10 @@ export default defineConfig(({ mode }) => ({
   },
   plugins: [
     vue(),
+    Icons({
+      // experimental
+      autoInstall: true,
+    }),
     EnvironmentPlugin({
       // Have in mind that variables coming from process.env are always strings.
       DEBUG: "on",

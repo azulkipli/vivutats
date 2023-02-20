@@ -8,6 +8,7 @@ import { RouterLink, RouterView } from "vue-router"
     <nav>
       <RouterLink class="py-1 px-2" to="/">Home</RouterLink>
       <RouterLink class="py-1 px-2" to="/about">About</RouterLink>
+      <RouterLink class="py-1 px-2" to="/daisy">DaisyUI</RouterLink>
     </nav>
   </header>
 
