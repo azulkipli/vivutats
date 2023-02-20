@@ -1,6 +1,6 @@
-<script setup>
-import IconShoppingCart from "~icons/carbon/shopping-cart"
-import IconClose from "~icons/carbon/close"
+<script setup lang="ts">
+import IconClose from "../components/icons/IconClose.vue"
+import IconShoppingCart from "../components/icons/IconShoppingCart.vue"
 </script>
 <template>
   <section class="bg-gray-50">
@@ -16,7 +16,7 @@ import IconClose from "~icons/carbon/close"
             <span class="indicator-item badge badge-info w-2 h-2 p-3 rounded-full text-xs">3</span>
             <label class="drawer-button btn gap-2 btn-ghost hover:bg-transparent" for="my-drawer-4">
               <!-- <span class="font-normal text-[15px]">Cart</span> -->
-              <IconShoppingCart style="font-size: 26px; font-weight: bold" />
+              <IconShoppingCart />
             </label>
           </div>
         </div>
