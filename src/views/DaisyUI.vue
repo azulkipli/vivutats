@@ -47,7 +47,9 @@ import IconShoppingCart from "../components/icons/IconShoppingCart.vue"
                             <h2 class="card-title">New movie is released!</h2>
                             <p class="text-left">Click the button to watch on Jetflix app.</p>
                             <div class="card-actions justify-end">
-                              <button class="btn btn-outline btn-xs"><IconClose /></button>
+                              <button class="btn btn-outline btn-xs" aria-label="remove">
+                                <IconClose />
+                              </button>
                             </div>
                           </div>
                         </div>
@@ -65,7 +67,9 @@ import IconShoppingCart from "../components/icons/IconShoppingCart.vue"
                             <h2 class="card-title">New movie is released!</h2>
                             <p class="text-left">Click the button to watch on Jetflix app.</p>
                             <div class="card-actions justify-end">
-                              <button class="btn btn-outline btn-xs"><IconClose /></button>
+                              <button class="btn btn-outline btn-xs" aria-label="remove">
+                                <IconClose />
+                              </button>
                             </div>
                           </div>
                         </div>
@@ -83,7 +87,9 @@ import IconShoppingCart from "../components/icons/IconShoppingCart.vue"
                             <h2 class="card-title">New movie is released!</h2>
                             <p class="text-left">Click the button to watch on Jetflix app.</p>
                             <div class="card-actions justify-end">
-                              <button class="btn btn-outline btn-xs"><IconClose /></button>
+                              <button class="btn btn-outline btn-xs" aria-label="remove">
+                                <IconClose />
+                              </button>
                             </div>
                           </div>
                         </div>
