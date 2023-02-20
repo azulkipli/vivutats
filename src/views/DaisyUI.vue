@@ -1,6 +1,6 @@
-<script lang="ts" setup>
-import IconShoppingCart from "~icons/carbon/ShoppingCart"
-import IconClose from "~icons/carbon/Close"
+<script setup>
+import IconShoppingCart from "~icons/carbon/shopping-cart"
+import IconClose from "~icons/carbon/close"
 </script>
 <template>
   <section class="bg-gray-50">
