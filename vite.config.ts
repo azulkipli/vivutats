@@ -44,7 +44,7 @@ export default defineConfig(({ mode }) => ({
     // AutoImport({
     //   imports: [unheadComposablesImports],
     // }),
-    Inspector(),
+    // Inspector(),
     timeReporter(),
   ],
   resolve: {
