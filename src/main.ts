@@ -6,6 +6,7 @@ import { createHead, useHead } from "@vueuse/head"
 /* components */
 import App from "./App.vue"
 import router from "./router"
+import("preline")
 
 /* styles */
 import "./assets/tailwind.css"

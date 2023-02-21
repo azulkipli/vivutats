@@ -3,6 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@iconify-json/carbon': ^1.1.14
   '@iconify/vue': ^4.1.0
+  '@preline/overlay': ^1.4.0
   '@rushstack/eslint-patch': ^1.1.4
   '@tailwindcss/forms': ^0.5.3
   '@tailwindcss/typography': ^0.5.9
@@ -25,6 +26,7 @@ specifiers:
   npm-run-all: ^4.1.5
   pinia: ^2.0.28
   postcss: ^8.4.21
+  preline: ^1.7.0
   prettier: ^2.7.1
   start-server-and-test: ^1.15.2
   tailwindcss: ^3.2.7
@@ -43,9 +45,11 @@ specifiers:
   vue-tsc: ^1.0.12
 
 dependencies:
+  '@preline/overlay': 1.4.0
   '@tailwindcss/forms': 0.5.3_tailwindcss@3.2.7
   '@vueuse/head': 1.0.26_vue@3.2.47
   pinia: 2.0.30_5yi2kxxaqg74pgvs6b75qdtvru
+  preline: 1.7.0
   unhead: 1.0.22
   vue: 3.2.47
   vue-router: 4.1.6_vue@3.2.47
@@ -1051,6 +1055,14 @@ packages:
       - rollup
       - supports-color
     dev: true
+
+  /@popperjs/core/2.11.6:
+    resolution: {integrity: sha512-50/17A98tWUfQ176raKiOGXuYpLyyVMkxxG6oylzL3BPOlA6ADGdK7EYunSa4I064xerltq9TGXs8HmOk5E+vw==}
+    dev: false
+
+  /@preline/overlay/1.4.0:
+    resolution: {integrity: sha512-K3Ybp1jGkonimWIlS986Lzz/4ezuYNqQNTK2ZS0tDka69hzutA10CraAeflEHG2A1n7EzWkZE1vjLuy7s7pgjg==}
+    dev: false
 
   /@rollup/pluginutils/5.0.2:
     resolution: {integrity: sha512-pTd9rIsP92h+B6wWwFbW8RkZv4hiR/xKsqre4SIuAOaOEQRxi0lqLke9k2/7WegC85GgUs9pjmOjCUi3In4vwA==}
@@ -4317,6 +4329,12 @@ packages:
       nanoid: 3.3.4
       picocolors: 1.0.0
       source-map-js: 1.0.2
+
+  /preline/1.7.0:
+    resolution: {integrity: sha512-Zqca6I0Pj5C/yVSCgu3xilwuyNgPUSx1ZgbV5inP9OJmvVqEsOshE7zvo78M927f0vheTFIuinvkfNvAhduq6g==}
+    dependencies:
+      '@popperjs/core': 2.11.6
+    dev: false
 
   /prelude-ls/1.1.2:
     resolution: {integrity: sha512-ESF23V4SKG6lVSGZgYNpbsiaAkdab6ZgOxe52p7+Kid3W3u3bxR4Vfd/o21dmN7jSt0IwgZ4v5MUd26FEtXE9w==}
